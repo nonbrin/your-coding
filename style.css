@@ -1,0 +1,658 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+section{
+    width: 1366px;
+}
+
+
+/* -----nav---------- */
+.h-nav{
+    /* background-color:pink; */
+    width: 1366px;
+    /*width: 1022px;*/
+    height: 94px;
+    z-index: 200;
+    margin: 0 auto;
+    /* position: fixed; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    /*position: relative;  */
+}
+nav{
+    /* box-sizing: border-box; */
+    z-index: 100;
+    width: 1022px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+
+    /*あとで復活させる*/
+    padding: 0 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+    opacity: 1;
+   
+}
+.t-logo{
+    /* background-color: aquamarine; */
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    line-height: 94px;
+}
+nav img{
+    /* background-color: bisque; */
+    height: 47px;
+    width: 47px;
+    margin-top: 24px;
+    margin-bottom: 23px;
+    margin-right: 16px;
+    /* line-height: 94px; */
+}
+.t-title{
+    /* background-color: cornflowerblue; */
+    /* font: W6 24rem Hiragino Kaku Gothic ProN; */
+    font: 2.4rem/94px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.menu{
+    margin-right: 46px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+    padding: 0 23px;
+    line-height: 94px;
+}
+nav a{
+    text-decoration: none;
+    font: 1.6rem/94px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+
+nav .button .btn{
+    /*top: 50%;*/
+    /* left: 50%; */
+    /* -webkit-transform: translateX(-50%, -50%); */
+    /*transform: translateY(-50%);*/
+    /* transform: translateX(-50%); */
+    width: 155px;
+    height: 37px;
+    /* line-height: 94px; */
+    background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+nav .button a{
+   
+    display: block; 
+    width: 155px;
+    /* text-align: center; */
+    font: W6 14px/24px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* -----h-t-samp---------- */
+.h-t-samp .h-nav nav{
+    background-color: orange;
+    /* position: relative; */
+}
+
+/* -------header-------- */
+
+.top-img1{
+    width: 1366px;
+    /* width: 708px; */
+    height: 711px;
+    background: url(images/楕円形\ 1.svg);
+    /* background-size: 708px 711px; */
+    background-size: 708px 711px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 743px -30px;
+}
+.text{
+    padding: 168px 192px;
+}
+.text h1{
+    margin-bottom: 38px;
+    width: 351px;
+    text-align: left;
+    font: 3.2rem/54px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.text p{
+    margin-bottom: 39px;
+    width: 255px;
+    text-align: left;
+    font: 1.6rem/27px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.h-top .btn{
+   
+    width: 155px;
+    height: 37px;
+    background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.btn a{
+    text-decoration: none;
+    display: inline-block;
+    /* line-height: 37px; */
+    width: 155px;
+    text-align: center;
+    font: 1.4rem/37px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    /* background-color: green; */
+}
+.top-img2 img{
+    width: 518px;
+    height: 430px;
+    position: absolute;
+    top: 225px;
+    left: 676px;
+}
+
+/* ------共通--------- */
+h2{
+    padding-top: 80px;
+    text-align: center;
+    font: 3.2rem/54px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.sub-title{
+    padding-top: 20px;
+    text-align: center;
+    font: 1.6rem/27px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #3BA6C9;
+    opacity: 1;
+}
+h3{
+    padding-top: 20px;
+    text-align: center;
+    font: 2.8rem/48px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+
+}
+h4{
+    text-align: left;
+    font: 2.4rem/48px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    
+}
+
+/* -------id:sec-1----------- */
+.sec-content p{
+    text-align: left;
+    font: 1.6rem/26px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.sec-feature h3{
+    padding-top: 67px;
+}
+/* -----高速コーディング------- */
+.description1{
+    position: relative;
+    margin-top: 54px;
+}
+.des-img1 img{
+    position: absolute;
+    left: 192px;
+    width: 380px;
+    height: 314px;
+}
+.des-text1{
+    /* background-color: tomato; */
+    width: 794px;
+    height: 314px;
+    padding-top: 47px;
+    margin-left: auto;
+    padding-left: 157px;
+}
+.des-text1 p{
+    width: 399px;
+    margin-top: 54px;
+}
+/* -------高品質------------ */
+/* 「displayとorder利用してみる」 */
+
+
+.description2{
+    /* background-color: blue; */
+    display: flex;
+    /* align-items: center; */
+    margin-top: 64px;
+    margin-left: 221px;
+    margin-right: 135px;
+}
+.des-img2{
+    /* background-color: green; */
+    margin-left: 84px;
+    order: 1;
+}
+.des-img2 img{
+    /* background-color: red; */
+    width: 380px;
+    height: 314px;
+} 
+.des-text2 h4{
+    /* background-color: yellow; */
+    width: 341px;
+    /* height: 120px; */
+}
+.des-text2 p{
+    margin-top: 49px;
+    width: 447px;
+}
+
+
+/* -------迅速なレスポンス------------ */
+.description3{
+    position: relative;
+    margin-top: 54px;
+}
+.des-img3 img{
+    position: absolute;
+    left: 192px;
+    width: 380px;
+    height: 314px;
+}
+.des-text3{
+    /* background-color: tomato; */
+    margin-left: 794px;
+    height: 314px;
+}
+.des-text3 h4{
+    width: 353px;
+    height: 120px;
+
+}
+.des-text3 p{
+    width: 335px;
+    margin-top: 42px;
+}
+
+/* -----id:sec-2　価格----------- */
+.price{
+    background: #EEFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 1366px;
+    height: 800px;
+    margin-bottom: 71px;
+}
+.price-table{
+    margin-top: 73px;
+}
+table tr td{
+    border: 1px solid #00000029;
+    padding-left: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+.price-table table{
+    margin: 0 auto;
+    width: 926px;
+    height: 410px;
+    text-align: left;
+    font: 1.6rem/28px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    font-size: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.price-table table .td-1{
+    width: 300px;
+}
+.last-text p{
+    text-align: center;
+    font: 1.6rem/26px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+.last-text{
+    margin-top: 41px; 
+}
+/* -----よくある質問----------- */
+.q-contents{
+    margin-top: 35px;
+    margin-bottom: 86px;
+}
+.faq{
+    margin: 0 auto;
+    width: 907px;
+    text-align: left;
+    text-align: center;
+    border: 1px solid #E5E5E5;
+    opacity: 1;
+
+}
+.faq .question, .faq .answer{
+    font: normal normal normal 1.4rem/26px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.faq .question{
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    height: 58px;
+    line-height: 58px;
+}
+.faq .answer{
+    text-align: left;
+    padding: 20px 35px;
+}
+
+/* -------アコーディオン-------- */
+.faq dt:hover {
+    background-color: yellowgreen;
+}
+.faq dt.selected{
+    background-color: turquoise;
+}
+.faq dt, .faq dd{
+    border: 1px solid #E5E5E5;
+}
+
+
+
+
+/* --------ブログ---------- */
+.blog{
+    background: #EEFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 1366px;
+    height: 668px;
+}
+.b-container{
+    padding: 60px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+.b-container .content{
+    width: 389px;
+    height: 387px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.b-container .c-img img{
+    width: 389px;
+    height: 260px;
+}
+.c-text{
+    /* background-color: yellowgreen; */
+    height: 120px;
+    position: relative;
+    padding: 19px;
+}
+.c-text p{
+    text-align: left;
+    font: normal normal normal 1.8rem/26px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.c-text .day{
+    position: absolute;
+    bottom: 13px;
+    right: 18px;
+    width: 100px;
+    height: 16px;
+    font: normal normal normal 16px/26px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+/* --------制作物--------------- */
+.works{
+    padding-bottom: 90px;
+}
+.works .sec-title{
+    margin-bottom: 71px;
+}
+.w-container{
+    display: grid;
+    grid-template-columns: 322px 322px 322px;
+    gap: 56px;
+}
+.w-content{
+    width: 322px;
+    height: 407px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    opacity: 1;
+}
+.w-container img{
+    width: 322px;
+    height: 210px;
+
+}
+.w-text{
+    padding: 24px 18px;
+}
+.w-text p{
+    text-align: left;
+    font: normal normal normal 1.6rem/27px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.w-text .w-description{
+    padding-top: 25px;
+    font: normal normal normal 1.4rem/24px Hiragino Kaku Gothic ProN W6;
+}
+
+/* -------お問い合わせ------------ */
+.contact{
+    width: 1366px;
+    height: 1100px;
+    background: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;    
+}
+.contact .sec-title h2{
+    font: normal normal normal 3.2rem/28px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.contact .sec-title p{
+    font: normal normal normal 1.6rem/27px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.contact .c-text p{
+    text-align: center;
+    font: normal normal normal 16px/27px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.contact .form{
+    margin: 0 auto;
+    width: 908px;
+    height: 800px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    
+}
+.form{
+    padding: 39px 63px;
+}
+.name, .email{
+    width: 499px;
+    height: 43px;
+    background: #EEFBFB 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    border: none;
+    margin-bottom: 32px;
+}
+.f-contact{
+    width: 783px;
+    height: 179px;
+    background: #EEFBFB 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    border: none;
+}
+
+.form li{
+    /* background-color: red; */
+    list-style: none;
+}
+.form li span{
+    margin: 0 22px 42px;
+}
+.contact .form form label{
+    text-align: left;
+    font: normal normal normal 1.6rem/26px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+}
+.contact .form span{
+    display: inline-block;
+    padding: 0 16px;
+    width: 60px;
+    height: 30px;
+    background: #0C449B 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    font: normal normal normal 1.4rem/30px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.check{
+    /* background-color: yellowgreen; */
+    text-align: center;
+    margin: 30px auto 0;
+}
+.b-submit{
+    margin: 45px auto;
+    width: 155px;
+    height: 37px;
+    background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+    font: normal normal normal 1.4rem/24px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* ---------footer----------------- */
+footer{
+    width: 1366px;
+    height: 400px;
+}
+.last-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.last-nav p{
+    padding: 0 15px;
+    font: normal normal normal 1.6rem/28px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;   
+}
+.copyright{
+    margin-top: 59px;
+    margin-bottom: 51px;
+    text-align: center;
+    font: normal normal normal 1.4rem/24px Hiragino Kaku Gothic ProN;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+
+/* -----swiper--------- */
+
+.swiper-container{
+    /* width: 100vw; */
+    margin: 0 20px;
+    width: 1300px;
+    height: 450px;
+}
+.swiper-slide{
+    /* background-color: yellowgreen; */
+    /* margin: 0 10px; */
+    width: 322px;
+    height: 407px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    opacity: 1;
+}
+.swiper-slide .sw-img img{
+    /* width: 322px; */
+    width: 100%;
+    height: 210px;
+}
+.swiper-slide .w-title{
+    width: 300px;
+}
+/* .w-text{
+    padding: 24px 18px;
+}
+.w-text p{
+    text-align: left;
+    font: normal normal normal 1.6rem/27px Hiragino Kaku Gothic ProN W6;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.w-text .w-description{
+    padding-top: 25px;
+    font: normal normal normal 1.4rem/24px Hiragino Kaku Gothic ProN W6;
+} */
